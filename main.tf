@@ -7,6 +7,6 @@ resource "random_id" "random" {
  
 }
 
-output "random" {
+output "random_val" {
   value = random_id.random.hex
 }
